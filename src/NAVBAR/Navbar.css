@@ -1,0 +1,19 @@
+.NAVBAR {
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 20px;
+}
+span img {
+  width: 50px;
+  height: 60px;
+}
+.navlink {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.signup{
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 350px; */
+}

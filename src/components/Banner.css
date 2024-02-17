@@ -1,0 +1,27 @@
+.Banner {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 500px;
+}
+.banner-size {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+.banner-size img {
+  width: 95%;
+  height: 450px;
+}
+.bottom-left {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+}
+
+.bottom-left p {
+  color: aliceblue;
+}
